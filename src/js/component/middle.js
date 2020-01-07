@@ -4,7 +4,7 @@ import React from "react";
 export function Middle() {
 	return (
 		<div className="container mt-5 welcome">
-			<h1>A Warm Welcome!</h1>
+			<h1 className="middleTitle">A Warm Welcome!</h1>
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting
 				industry. Lorem Ipsum has been the industry's standard dummy
