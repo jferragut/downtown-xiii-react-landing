@@ -1,13 +1,13 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-import { Middle } from "./middle";
+import { Navbar } from "./navbar.js";
+import { Middle } from "./middle.js";
 
 //create your first component
 export function Home() {
 	return (
-		<div className="container mt-5 mb-5">
+		<div>
+			<Navbar />
 			<Middle />
 		</div>
 	);
