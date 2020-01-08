@@ -3,6 +3,7 @@ import React from "react";
 import { Navbar } from "./navbar.js";
 import { Middle } from "./middle.js";
 import { Card } from "./card.js";
+import { Footer } from "./footer.js";
 
 //create your first component
 export function Home() {
@@ -24,6 +25,7 @@ export function Home() {
 					<Card />
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }
