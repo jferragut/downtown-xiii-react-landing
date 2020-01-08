@@ -6,8 +6,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 export function Card() {
 	return (
-		<div className="text-center cardBody border-1">
-			<div className="box my-4">
+		<div className="text-center cardBody">
+			<div className="box my-4 border border-light rounded">
 				<img
 					src="http://placehold.it/500x325"
 					className="card-img-top"
@@ -15,14 +15,15 @@ export function Card() {
 				/>
 				<div>
 					<h5>Card Title</h5>
-					<p>
+					<p className="px-3 py-3">
 						This is the comment of the textbox, it is here just to
-						fill it out.
+						fill it out.This is the comment of the textbox, it is
+						here just to fill it out.
 					</p>
-					<hr />
 				</div>
-				<div>
-					<a href="#" className="btn btn-primary">
+				<div className="bg-light">
+					<hr />
+					<a href="#" className="btn btn-primary my-1">
 						Find out more!
 					</a>
 				</div>
