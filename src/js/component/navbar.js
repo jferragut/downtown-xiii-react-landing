@@ -18,7 +18,7 @@ export function Navbar() {
 	));
 
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav className="container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
 			<a className="navbar-brand" href="#">
 				Start Bootstrap
 			</a>
